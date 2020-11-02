@@ -1,15 +1,15 @@
 {
-    "name": "sankaest/yii2-rebase",
-    "description": "Base library and foundation components for all Yii2 Sankaest extensions.",
+    "name": "sankaest/yii2-gridview",
+    "description": "Yii2 Gridview module for BSN4 version.",
     "keywords": [
         "yii2",
         "extension",
         "widget",
         "sankaest",
-        "base",
+        "gridview",
         "foundation"
     ],
-    "homepage": "https://github.com/sankaest/yii2-rebase",
+    "homepage": "https://github.com/sankaest/yii2-gridview",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
@@ -21,7 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "sankaest\\rebase\\": "src"
+            "sankaest\\gridview\\": "src"
         }
     }
 }
