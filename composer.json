@@ -1,0 +1,27 @@
+{
+    "name": "sankaest/yii2-rebase",
+    "description": "Base library and foundation components for all Yii2 Sankaest extensions.",
+    "keywords": [
+        "yii2",
+        "extension",
+        "widget",
+        "sankaest",
+        "base",
+        "foundation"
+    ],
+    "homepage": "https://github.com/sankaest/yii2-rebase",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Aleksander Andre",
+            "email": "aleksander@axendo.ee",
+            "homepage": "https://www.axendo.ee/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sankaest\\rebase\\": "src"
+        }
+    }
+}
