@@ -7,7 +7,7 @@
  * @version   3.3.5
  */
 
-namespace backend\themes\basic\widgets\gridview;
+namespace sankaest\gridview;
 
 use Closure;
 use yii\grid\DataColumn as YiiDataColumn;

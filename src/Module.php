@@ -7,7 +7,7 @@
  * @version   3.3.5
  */
 
-namespace backend\themes\basic\widgets\gridview;
+namespace sankaest\gridview;
 
 /**
  * This module allows global level configurations for the enhanced Krajee [[GridView]]. One can configure the module
@@ -25,7 +25,7 @@ namespace backend\themes\basic\widgets\gridview;
  * @author Kartik Visweswaran <kartikv2@gmail.com>
  * @since  1.0
  */
-class Module extends \backend\themes\basic\widgets\base\Module
+class Module extends \sankaest\rebase\Module
 {
     /**
      * The module name for Krajee gridview

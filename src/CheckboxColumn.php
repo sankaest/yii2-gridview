@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\themes\basic\widgets\gridview;
+namespace sankaest\gridview;
 
 use Closure;
 use yii\grid\CheckboxColumn as YiiCheckboxColumn;

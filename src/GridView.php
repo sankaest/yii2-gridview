@@ -7,17 +7,17 @@
  * @version   3.3.5
  */
 
-namespace backend\themes\basic\widgets\gridview;
+namespace sankaest\gridview;
 
-use backend\themes\basic\widgets\dropdown\ButtonDropdown;
+use sankaest\rebase\ButtonDropdown;
 use Closure;
-use backend\themes\basic\widgets\base\BootstrapTrait;
-use backend\themes\basic\widgets\base\BootstrapInterface;
+use sankaest\rebase\BootstrapTrait;
+use sankaest\rebase\BootstrapInterface;
 //use kartik\base\BootstrapInterface;
 //use kartik\base\BootstrapTrait;
 //use kartik\base\Config;
 //use kartik\dialog\Dialog;
-use backend\themes\basic\widgets\base\Config;
+use sankaest\rebase\Config;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\grid\Column;
@@ -51,7 +51,7 @@ use yii\widgets\Pjax;
  *     'columns' => [
  *         'id',
  *         'name',
- *         'created_at:datetime',
+ *         'created_at_datetime:datetime',
  *         // ...
  *     ]
  * ]) ?>
@@ -1455,7 +1455,7 @@ HTML;
         /** @noinspection PhpUnnecessaryFullyQualifiedNameInspection */
         $out = Html::tag('div', ButtonDropdown::widget($opts), $this->exportContainer);
 
-        return $out;
+        return $out ?? '';
     }
 
     /**
